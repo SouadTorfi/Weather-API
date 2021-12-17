@@ -20,6 +20,74 @@
 
 /* Current weather */
 
-div {
-  border: 5px solid red;
+
+.navbar{
+  background-color: #759EDA;
+  padding: 20px;
+  height: 40px;
+  text-align: left;
+ 
+} 
+
+button{
+  background-color: #5879c7;
+  height: 40px;
+  width:150px;
+  margin-left: 80px;
+  border: 0px;
+}
+
+nav input{
+
+background-color: #759EDA;
+color: white;
+border: 0px;
+font-size: medium;
+
+
+}
+
+.website{
+  text-align: center;
+  margin-top: 2%;
+ padding-bottom: 1rem;
+ word-spacing: 0.3rem;
+ 
+}
+
+h4{
+  color: white;
+
+}
+.p1{
+  font-size: large;
+}
+.p2{
+  font-size: smaller;
+}
+
+
+.maining{
+  width: 150px;
+  height: 150px;
+
+}
+
+.temp{
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+  padding: 0rem 10rem 0rem 10rem;
+  
+
+}
+.temp p{
+  text-align: center;
+ 
+}
+
+.img1-1,.img2-2,.img3-3,.img4-4,.img5-5,.img6-6,.img7-7{
+  width: 70px;
+  height: 70px;
+
+
 }
